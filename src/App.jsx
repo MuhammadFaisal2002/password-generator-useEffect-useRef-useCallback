@@ -32,7 +32,7 @@ useEffect(()=> {passGeneator()} , [length, Character, Number, passGeneator])
         <h2 className='text-white text-center '>Password Generator</h2>
         <input type='text' ref={copy} value={password} className='bg-white text-orange-500 font-extrabold text-xl rounded-l-xl size-16 w-96 h-10' placeholder='Password' readOnly>
         </input>
-        <input type="button" onClick={copyToClipBoard} value="copy" className='bg-blue-600 text-white font-bold rounded-r-xl p-2' />
+        <input type="button" onClick={copyToClipBoard} value="copy" className='bg-blue-500 hover:bg-blue-900 text-white font-bold rounded-r-xl p-2' />
       </div>
       <div>
       
